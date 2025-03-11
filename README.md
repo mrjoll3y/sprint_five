@@ -7,6 +7,7 @@ My purpose for developing this software was to further my learning in web develo
 Software Demo Video
 
 #Development Environment
+
 Code Editor: Visual Studio Code (VS Code) – a popular and efficient code editor for web development.
 Languages:
 HTML: To structure the webpage and create the form and table elements.
@@ -16,10 +17,13 @@ Web Browser: Google Chrome – used for testing and debugging the application in
 The project does not rely on external libraries or frameworks, focusing solely on vanilla HTML, CSS, and JavaScript.
 
 #Useful Websites
+
 MDN Web Docs – For reference on JavaScript functions, CSS properties, and HTML elements.
 W3Schools – For learning and testing HTML, CSS, and JavaScript syntax.
 Stack Overflow – For troubleshooting specific coding issues and finding solutions to common problems.
+
 #Future Work
+
 Validation: Implement more robust input validation to handle edge cases, such as invalid times or empty fields.
 Time Zone Support: Add the ability to handle employee schedules across multiple time zones.
 Persist Data: Store employee data in local storage or a backend database so that schedules can be saved even after the browser is closed.
