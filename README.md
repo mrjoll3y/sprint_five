@@ -27,5 +27,4 @@ Stack Overflow – For troubleshooting specific coding issues and finding soluti
 Validation: Implement more robust input validation to handle edge cases, such as invalid times or empty fields.
 Time Zone Support: Add the ability to handle employee schedules across multiple time zones.
 Persist Data: Store employee data in local storage or a backend database so that schedules can be saved even after the browser is closed.
-Enhanced Sorting Options: Allow users to sort by different columns, such as position or employee name, in addition to scheduled start time.
 User Authentication: Implement user authentication to allow different managers to securely access and modify the schedule.
