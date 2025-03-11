@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Walmart OPD Schedule</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Walmart OPD Schedule</h1>
+
+    <!-- Form to add or edit an employee -->
+    <div class="form-container">
+        <h2 id="formTitle">Add New Employee</h2>
+        <form id="employeeForm">
+            <input type="text" id="firstName" placeholder="First Name" required />
+            <input type="text" id="lastName" placeholder="Last Initial" required />
+            <input type="text" id="scheduledTime" placeholder="Scheduled Time" required />
+
+            <!-- Position dropdown -->
+            <select id="position" required>
+                <option value="Picking">Picking</option>
+                <option value="Staging">Staging</option>
+                <option value="Prepping">Prepping</option>
+                <option value="Dispensing">Dispensing</option>
+                <option value="Exceptions">Exceptions</option>
+            </select>
+
+            <input type="text" id="break1" placeholder="First Break" required />
+            <input type="text" id="lunch" placeholder="Lunch" required />
+            <input type="text" id="break2" placeholder="Second Break" required />
+
+            <button type="submit" id="submitButton">Add Employee</button>
+        </form>
+    </div>
+
+    <table id="schedule">
+        <thead>
+            <tr>
+                <th>Employee</th>
+                <th>Scheduled Time</th>
+                <th>Position</th>
+                <th>Break</th>
+                <th>Lunch</th>
+                <th>Break</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Employee rows will be populated here -->
+        </tbody>
+    </table>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
